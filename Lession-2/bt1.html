@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Đọc giá trị của Excel trong Java</title>
+
+    </head>
+    <body>
+        <h1>Đọc giá trị của Excel trong Java</h1>
+        <p>28 tháng 09, 2022 - 20 lượt xem</p>
+        <hr>
+        <h2>1. Tổng quan</h2>
+        <p>Khi nhắc đến các file Microsoft Excel, việc đọc giá trị từ các ô khác nhau có thể sẽ có một chút khó khăn. Các file Excel là những bảng tính được xây dựng theo các hàng và ô, có thể chứa kiểu dữ liệu là String, Numeric, Date, Boolean hoặc thậm chí cả công thức tính (Formula). Apache POI là thư viện cung cấp đầy đủ bộ công cụ để xử lý các tệp excel và các loại giá trị khác nhau.</p>
+        <p>Trong bài viết này, chúng ta sẽ tập trung tìm hiểu cách xử lý các file excel, lặp qua các hàng và ô và sử dụng cách thích hợp để đọc từng loại giá trị trong các ô.</p>
+            <img src="https://znews-photo.zingcdn.me/w1200/Uploaded/qhj_yvobvhfwbv/2018_07_18/Nguyen_Huy_Binh1.jpg" 
+                alt="Ảnh lỗi"
+                width="600"
+                height="400"
+            >
+        <hr>
+        <h2>2. Maven Dependency</h2>
+        <p>Hãy bắt đầu bằng việc thêm <strong>Apache POI dependency</strong> vào file <em>pom.xml</em>:</p>
+        <pre>
+            public static void readExcel(String filePath) {
+                File file = new File(filePath);
+                try {
+                    FileInputStream inputStream = new FileInputStream(file);
+                    ...
+                    inputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        </pre>
+        <p>Có thể xem phiên bản mới nhất của <em>poi-ooxml</em> tại Maven Central.</p>
+        <hr>
+        <h2>3. Tổng quan về Apache POI</h2>
+        <p>Hệ thống phân cấp bắt đầu với workbook, đại diện cho toàn bộ file Excel. Mỗi file có thể chứa một hoặc nhiều sheet, là tập hợp bao gồm các hàng và các ô. Tùy vào phiên bản của file Excel, HSSF là tiền tố của các lớp đại diện cho các file Excel trước đây(.xls), trong khi XSSF được sử dụng cho những phiên bản mới nhất (.xlxs). Do đó, chúng ta có như sau:</p>
+        <ul>
+            <li>Các lớp <em>XSSFWorkbook</em> và <em>HSSFWorkbook</em> đại diện cho Excel workbook.</li>
+            <li>Sheet interface đại diện cho Excel worksheets.</li>
+            <li><em>Row interface</em> đại diện cho các hàng.</li>
+            <li><em>Cell interface</em> đại diện cho các ô.</li>
+        </ul>
+        <h3>3.1. Xử lý Excel Files</h3>
+        <p>Đầu tiên, chúng ta mở file muốn đọc và chuyển đổi thành <em>FileInputStream</em> để tiếp tục xử lý. <em>FileInputStream</em> constructor ném ra ngoại lệ <em>java.io.FileNotFoundException</em> nên cần phải triển khai trong khối <em>try-catch</em> và đóng stream khi kết thúc:</p>
+        <ul>
+            <img src="https://media.techmaster.vn/api/static/c8140as51cocaqaqb22g/0KPx1uEH" width="50" height="50" alt="Tác giả">
+            <li>Written By:Hoàng Mạnh Cường (Java 10)</li>
+            <li>Facebook:<a href="https://techmaster.vn/author/c8140as51cocaqaqb22g/hoang-manh-cuong">https://www.facebook.com/</a></li>
+        </ul>
+        <p>&&lt;</p>
+    
+    </body>
+</html>
