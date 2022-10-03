@@ -1,0 +1,14 @@
+strong {
+    color: blue;
+}
+h1 {
+    font-size: 24px;
+}
+#style_button {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    border: 1px solid black;
+    font-weight: 800px;
+    text-align: center;
+}
