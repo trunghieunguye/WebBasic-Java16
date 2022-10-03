@@ -1,0 +1,17 @@
+div {
+    height: 1000px;
+    width: 1000px;
+    background-image: url('./Nha-trang-beach-1_1648192207.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+p {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(60, 100, 140,0.5);
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+}
