@@ -2,13 +2,14 @@ strong {
     color: blue;
 }
 h1 {
-    font-size: 24px;
+    font-size: 26px;
 }
 #style_button {
     background-color: blue;
     color: white;
-    width: 100px;
+    width: 110px;
     border: 1px solid black;
     font-weight: 800px;
+    font-size: 18px;
     text-align: center;
 }
