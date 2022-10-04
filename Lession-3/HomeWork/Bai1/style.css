@@ -1,0 +1,17 @@
+div {
+    height: 700px;
+    width: 350px;
+    background-image: url('./anh.jfif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+p {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(50, 4, 4);
+    background-color: rgba(112, 108, 44, 0.5);
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
