@@ -1,21 +1,17 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-size: 24px;
+    font-size: 100px;
 }
 #box3 {
     width: 480px;
-    height: 60px;
     border: 2px solid blue;
     padding-left: 24px;
-    line-height: 60px;
     margin-left: 100px;
 }
 #box1 {
-    height: 60px;
     border: 2px solid red;
     padding: 0 64px;
-    line-height: 60px;
     display: inline-block;
 }
 #box2 {
