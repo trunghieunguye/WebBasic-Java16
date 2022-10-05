@@ -1,6 +1,7 @@
 * {
     margin: 0 auto;
     font-size: 16px;
+    box-sizing: border-box;
 }
 header {
     height: 50px;
@@ -16,9 +17,9 @@ footer {
     background-color: black;
     color: rgb(33, 211, 205);
     text-align: center;
-    height: 100px;
-    line-height: 35px;
-    padding-top: 30px;
+    height: 110px;
+    line-height: 30px;
+    padding-top: 20px;
 }
 #img_style {
     display: inline-block;
@@ -34,8 +35,8 @@ footer {
     width: 40%;
     text-align: center;
     line-height: 55px;
-    padding-right: 40px;
     color: black;
+    margin-right: 30px;
 }   
 img {
     border-radius: 10px;
