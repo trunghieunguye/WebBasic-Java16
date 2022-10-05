@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    font-size: 24px;
+}
+p {
+    padding: 5px;
+}
+p:first-child {
+    color: brown;
+    background-color: rgba(136, 245, 245, 0.958);
+    font-weight: 600;
+}
+p:last-child {
+    background-color: rgb(228, 212, 244);
+    color: orangered;
+    font-weight: 600;
+}
+div > div {
+    width: 200px;
+    margin: 10px 0;
+}
+body > div {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}

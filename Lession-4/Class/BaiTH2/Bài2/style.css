@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+div {
+    width: 50%;
+    height: 400px;
+    margin: 40px auto;
+}
+p {
+    background-color: antiquewhite;
+    border-bottom: 2px solid rgb(4, 61, 90);
+    margin: auto;
+    width: 300px;
+    font-size: 36px;
+    text-align: center;
+    padding: 5px;
+}
+p:nth-child(4) {
+    border: none;
+}

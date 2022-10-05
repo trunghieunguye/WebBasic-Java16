@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+body > div {
+    margin: 50px 35%;
+}
+div {
+    background-color: antiquewhite;
+    display: inline-block;
+}
+p {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+div:nth-child(1) > p:nth-child(3n+1),
+div:nth-child(2) > p:nth-child(3n+2), 
+div:nth-child(3) > p:nth-child(3n) {
+    background-color: purple;
+}
