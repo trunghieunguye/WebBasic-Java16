@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+div:first-child {
+    width: 300px;
+    height: 450px;
+    background-image: url('./anh.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+span {
+    font-size: 32px;
+    font-weight: 600px;
+}
+strong {
+    color: blue;
+}
+p {
+    margin: 20px 0;
+    font-size: 20px;
+}
+button {
+    width: 130px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+span:hover {
+    color: red;
+    font-weight: 700px;
+}
+div {
+    margin: 20px 600px;
+}
+button:first-child {
+    margin-right: 30px;
+}
