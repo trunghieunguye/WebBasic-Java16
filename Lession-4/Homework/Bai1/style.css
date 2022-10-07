@@ -8,9 +8,14 @@
 div {
     width: 300px;
     margin: 100px auto;
+    background-color: aliceblue;
+    text-align: center;
 }
 li:hover {
     background-color: blueviolet;
-    border: 1px solid red;
+    border: 2px solid red;
     font-size: 28px;
+}
+li {
+    border: 1px solid brown;
 }
