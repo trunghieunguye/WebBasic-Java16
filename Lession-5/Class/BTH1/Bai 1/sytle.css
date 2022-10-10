@@ -4,7 +4,7 @@
 }
 #header_fb {
     height: 50px;
-    background-color: rgb(153, 191, 224);
+    background-color: whitesmoke;
 }
 #image_fb {
     background-image: url('./icon/Facebook-icon-1.png');
@@ -39,6 +39,9 @@
     gap: 35px;
 }
 #header_3 > svg {
-    background-color: antiquewhite;
     border-radius: 50%;
+    align-items: ce;
+}
+svg:hover {
+    background-color: rgb(183, 130, 233);
 }
