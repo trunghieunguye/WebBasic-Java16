@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 #header_fb {
     height: 50px;
     background-color: rgb(153, 191, 224);
