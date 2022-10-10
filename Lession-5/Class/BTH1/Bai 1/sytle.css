@@ -1,0 +1,40 @@
+#header_fb {
+    height: 50px;
+    background-color: rgb(153, 191, 224);
+}
+#image_fb {
+    background-image: url('./icon/Facebook-icon-1.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+}
+#ava_fb{
+    background-image: url('./icon/img_avatar.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.flexfb {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+#header_1 > div:nth-child(2) {
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    align-self: center;
+}
+#header_2 {
+    gap: 35px;
+}
+#header_3 > svg {
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
