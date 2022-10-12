@@ -1,0 +1,44 @@
+body > div {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 200px auto;
+}
+div > div {
+    width: 50%;
+    height: 50%;
+    transition: 2s;
+}
+.box1 {
+    background-color: red;
+}
+.box2 {
+    background-color: yellow;
+}
+.box3 {
+    background-color: olive;
+}
+.box4 {
+    background-color: blue;
+}
+.main:hover .box1 {
+    transform: rotateZ(90deg);
+    transform-origin: top left;
+    /* transition: 2s; */
+}
+.main:hover .box2 {
+    transform: rotateZ(-90deg);
+    transform-origin: top right;
+    /* transition: 2s; */
+}
+.main:hover .box3 {
+    transform: rotateZ(-90deg);
+    transform-origin: bottom left;
+    /* transition: 2s; */
+}
+.main:hover .box4 {
+    transform: rotateZ(90deg);
+    transform-origin: bottom right;
+    /* transition: 2s; */
+}
