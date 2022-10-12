@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body > div {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+}
+.box {
+    height: 50%;
+    border: solid;
+}
+.box > div {
+    height: 50px;
+    width: 50px;
+    border: solid;
+    border-radius: 50%;
+}
+.circle1 {
+    position: relative;
+    background-color: yellow;
+}
+.circle2 {
+    background-color: blue;
+    position: relative;
+    top: 170px;
+    left: 225px;
+}
+.circle3 {
+    background-color: olivedrab;
+    position:absolute;
+    top: 196px;
+    left: 445px;
+}
+.box2 {
+    position: relative;
+}
