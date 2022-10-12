@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.main_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 30px;
+}
+.container {
+    height: 550px;
+    width: 380px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;  
+}
+.container:hover {
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+}
+.card-content {
+    background: #fff;
+    box-shadow: -1px -1px 6px rgba(0,0,0,0.1);
+    flex: 1;
+}
+.image {
+    width: 100%;
+    height: 50%;
+}
+img {
+    width: 100%;
+    height: 100%
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+.wrapper {
+    padding: 10px 25px;
+}
+.title {
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+    gap: 100px;
+}
+p {
+    font-size: 17px;
+    color: grey;
+}
+.price {
+    font-size: 23px;
+    font-weight: 600;
+    color: #456ABD;
+}
+.content {
+    margin: 10px 0;
+}
+.name {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.size-value {
+    width: 50%;
+    display: flex;
+    margin: 5px 0;
+    justify-content: space-between;
+}
+.content .size-value span {
+    display: block;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #456ABD;
+}
+.content .size-value span.active {
+    background: #456ABD;
+    color: #fff;
+}
+.content .colour-value {
+    width: 30%;
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+  }
+.content .colour-value span {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    color: #fff;
+}
+.content .colour-value span.white {
+    background: lightgrey;
+}
+.content .colour-value span.blue {
+    background: #456ABD;
+    border: 2px solid black;
+}
+.content .colour-value span.yellow {
+    background: #EAA523;
+}
+.btns {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    height: 40px;
+    width: 100%;
+    margin: 0 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 2px solid black;
+    background-color: #fff ;
+}
+button:hover {
+    background-color: #456ABD;
+    color: white;
+}}
+

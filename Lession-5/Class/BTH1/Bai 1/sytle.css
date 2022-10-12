@@ -5,25 +5,26 @@
 #header_fb {
     height: 50px;
     background-color: whitesmoke;
+    gap:  250px;
 }
 #image_fb {
     background-image: url('./icon/Facebook-icon-1.png');
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-size: cover;
     border-radius: 50%;
 }
 #ava_fb{
     background-image: url('./icon/img_avatar.png');
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-size: cover;
     border-radius: 50%;
 }
 .flexfb {
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: space-around;
+    gap: 20px;
 }
 #header_1 > div:nth-child(2) {
     width: 250px;
@@ -36,12 +37,20 @@
     align-self: center;
 }
 #header_2 {
-    gap: 35px;
+    gap: 40px;
+    height: 40px;
+    align-self: center;
 }
 #header_3 > svg {
     border-radius: 50%;
-    align-items: ce;
+}
+#header_3 {
+    height: 40px;
+    align-self: center;
 }
 svg:hover {
     background-color: rgb(183, 130, 233);
+}
+#header_1 {
+    align-self: center;
 }
