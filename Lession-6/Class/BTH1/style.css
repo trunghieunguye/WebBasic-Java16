@@ -8,8 +8,9 @@ body > div {
     margin: 50px auto;
 }
 .box {
-    height: 50%;
+    height: 250px;
     border: solid;
+    position: relative;
 }
 .box > div {
     height: 50px;
@@ -23,15 +24,15 @@ body > div {
 }
 .circle2 {
     background-color: blue;
-    position: relative;
-    top: 170px;
+    position: absolute;
+    top: 225px;
     left: 225px;
 }
 .circle3 {
     background-color: olivedrab;
     position:absolute;
-    top: 196px;
-    left: 445px;
+    bottom: 0;
+    right: 0;
 }
 .box2 {
     position: relative;
