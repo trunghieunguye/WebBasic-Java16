@@ -28,5 +28,5 @@
 .button:active:after {
     opacity: 1;
     transition: 0s;
-    transform: scale(0.01);
+    transform: scale(0.0001);
   }
