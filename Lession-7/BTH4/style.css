@@ -1,0 +1,32 @@
+.button {
+    position: relative;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    font-size: 28px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 80px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+  }
+.button:after {
+    content: "";
+    background: whitesmoke;
+    border: none;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    transition: all 1s;
+    opacity: 0;
+    top: -60px;
+    left: -10px;
+}
+.button:active:after {
+    opacity: 1;
+    transition: 0s;
+    transform: scale(0.01);
+  }
