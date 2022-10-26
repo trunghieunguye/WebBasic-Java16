@@ -94,7 +94,7 @@ a {
     /* align-items: center; */
     gap: 30px;
 }
-.card {
+.card {   
     width: 400px;
 }
 .card-img {
